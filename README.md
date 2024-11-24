@@ -1,4 +1,5 @@
 This tool allows you to extract the text from the questions in the game "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl)", and then easily reinsert it. The pointer table will be updated automatically.
+The tool can be found here: https://github.com/KodingBTW/hexstring
 
 ## Usage
 
@@ -20,7 +21,7 @@ HexString -e <TextFile> <TextStartAddress> <TextSize> <PointersStartAddress> <He
 ```
 The program doesn't handle many exceptions, so try to provide the correct information to avoid issues. For more information, read the attached readme.txt.
 
-Locate the files in the same directory as the ROM, then use "extractor.bat" to extract the text. It will create a file called "QuestionsText.bin", which you can edit with any text editor; I recommend Notepad++. Then, edit the "encode.tbl" file and modify the table as you wish, adding any new graphics you need. Finally, use "inserter.bat" to insert the text.
+For easier use, I have created 2 batch files. Locate the files in the same directory as the ROM, then use "extractor.bat" to extract the text. It will create a file called "QuestionsText.bin", which you can edit with any text editor; I recommend Notepad++. Then, edit the "encode.tbl" file and modify the table as you wish, adding any new graphics you need. Finally, use "inserter.bat" to insert the text.
 
 ### Notes
 
