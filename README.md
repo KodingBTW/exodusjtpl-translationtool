@@ -11,9 +11,9 @@ HexString [-d | -e] inFileName outFileName
 Description:
 
 ```
-HexString -d <romFile> <PointersStartAddress> <PointerTableSize> <HeaderSize> <LineBreaker> <outFile> [tblFile] - Decode text from ROM file.
+HexString -d "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" 0x144F4 0x1F4 0x8010 0x04,0x05,0x06,0x07 "Questions.bin" "decoder.tbl" - Decode text from ROM file.
 
-HexString -e <TextFile> <TextStartAddress> <TextSize> <PointersStartAddress> <HeaderSize> <romFile> [tblFile] - Encode text to ROM file.
+HexString -e "Questions.bin" 0x1007B 4479 0x144F4 0x8010 "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" "encoder.tbl" - Encode text to ROM file.
 
 -h - Display help
 
